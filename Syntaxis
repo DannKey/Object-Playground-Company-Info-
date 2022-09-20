@@ -157,8 +157,13 @@ Branches: {
 
 
 
-console.table(company.Branches.officeTwo.departments);
+function salaryRaise(officeOne, department, raise) {
+  let money =  company.Branches[officeOne].employees[department].salary += raise;
+console.log(money);
+}
+salaryRaise('officeOne', 'validation', 500);
 
+console.log(company.Branches.officeOne.employees.validation.salary);
 
 
 
