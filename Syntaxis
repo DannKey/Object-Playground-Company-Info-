@@ -166,5 +166,5 @@ salaryRaise('officeOne', 'validation', 500);
 console.log(company.Branches.officeOne.employees.validation.salary);
 
 
-
+/* with the function salaryRaise , we raise the salaries of specific department in specific office in specific Branch with a given amount */ 
 
